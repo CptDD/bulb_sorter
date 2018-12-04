@@ -1,0 +1,17 @@
+material Conveyor/Red
+ {
+    technique
+    {
+       pass
+       {
+	  lightning on 
+	
+          texture_unit
+          {
+            texture glazer.jpeg
+	    ambient 0 0 0 1 
+	    diffuse 0 0 0 1
+          }
+       }
+    }
+ }

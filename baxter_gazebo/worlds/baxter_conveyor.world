@@ -1,0 +1,85 @@
+<?xml version="1.0" ?>
+<sdf version="1.4">
+  <world name="default">
+    <include>
+      <uri>model://ground_plane</uri>
+    </include>
+
+    <include>
+      <uri>model://sun</uri>
+    </include>
+
+    <include>
+      <static>true</static>
+      <pose>0.8 -0.07 0.6 0 0 0</pose>
+      <uri>model://conveyor_belt</uri>
+    </include>
+
+    <include>
+       <name>bulb_0</name>
+       <pose>0.8 0.41 1.01 0 0 0</pose>
+	     <uri>model://elongated_bulb</uri>
+    </include>
+
+
+    <include>
+       <name>bulb_1</name>
+       <pose>0.79 0.28 1.01 1.57 0 0</pose>
+       <uri>model://livarno_bulb</uri>
+    </include>
+
+    <!--<include>
+       <name>bulb_0</name>
+       <pose>0.79 0.44 1.01 0 0 0</pose>
+       <uri>model://standard_bulb</uri>
+    </include>-->
+
+    <include>
+      <uri>model://box</uri>
+      <static>true</static>
+      <pose>0.68 0 0 0 0 0</pose>
+    </include>
+
+    <!--<include>
+      <name>bulb_1</name>
+       <pose>0.79 0.28 0.99 0 0 0</pose>
+       <uri>model://livarno_bulb</uri>
+    </include>-->
+
+    <!--<include>
+      <name>bulb_2</name>
+       <pose>0.58 -0.07 0.95 0 0 0</pose>
+       <uri>model://mushroom_bulb</uri>
+    </include>-->
+
+    <!--<include>
+      <name>bulb_3</name>
+       <pose>0.68 -0.07 0.95 0 0 0</pose>
+       <uri>model://long_bulb</uri>
+    </include>
+
+    <include>
+      <name>bulb_4</name>
+       <pose>0.68 -0.07 0.95 0 0 0</pose>
+       <uri>model://li_bulb</uri>
+    </include>-->
+
+
+
+
+
+  
+   
+    <physics type="ode">
+      <real_time_update_rate>1000.0</real_time_update_rate>
+      <gravity>
+	0.0 0.0 -9.81
+      </gravity>
+    </physics>
+  </world>
+</sdf>
+
+
+<!--0,904686...0,260688...0,910144
+
+1.09417 0.160782 0.755218-->

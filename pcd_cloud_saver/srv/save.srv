@@ -1,0 +1,4 @@
+std_msgs/Bool command
+std_msgs/String cloud_name
+---
+std_msgs/String state

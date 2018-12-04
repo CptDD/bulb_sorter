@@ -1,0 +1,15 @@
+material BeerMug/Yellow
+{
+  technique
+  {
+    pass
+    {
+      texture_unit
+      {
+        texture glazer.jpeg
+	filtering anistropic
+        max_anisotropy 30
+      }
+    }
+  }
+}

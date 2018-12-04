@@ -1,0 +1,30 @@
+<?xml version='1.0'?>
+
+<sdf version='1.4'>
+	<model name="mushroom_bulb">
+			<link name="base">
+			<pose>0 0 0 0 0 0</pose>
+				<visual name="visual">
+					<geometry>
+						<mesh>
+							<uri>model://mushroom_bulb/meshes/mushroom_v2.stl</uri>
+						</mesh>
+					</geometry>
+				</visual>
+
+				<collision name="collision">
+					<geometry>
+						<mesh>
+							<uri>model://mushroom_bulb/meshes/mushroom_v2.stl</uri>
+						</mesh>
+					</geometry>
+				</collision>
+
+				<inertial>
+					<mass>0.1</mass>
+					<pose>0 0 0 0 0 0</pose>
+				</inertial>
+
+      		</link>
+	</model>
+</sdf>

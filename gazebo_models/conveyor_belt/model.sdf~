@@ -1,0 +1,39 @@
+<?xml version='1.0'?>
+
+<sdf version='1.4'>
+	<model name="beer_mug">
+
+			<link name="base">
+			<pose>0 0 0 0 0 0</pose>
+				<visual name="visual">
+					<geometry>
+						<mesh>
+							<uri>model://beer_mug/meshes/beer_pint_75.stl</uri>
+						</mesh>
+					</geometry>
+
+					<material>
+						<script>
+							<uri>model://beer_mug/materials/textures</uri>
+							<uri>model://beer_mug/materials/scripts</uri>
+							<name>BeerMug/Yellow</name>
+						</script>
+					</material>
+				</visual>
+
+				<collision name="collision">
+					<geometry>
+						<mesh>
+							<uri>model://beer_mug/meshes/beer_pint_75.stl</uri>
+						</mesh>
+					</geometry>
+				</collision>
+
+			<inertial>
+        		<pose>0 0 0 0 0 0</pose>
+        		<mass>0.390</mass>
+      		</inertial>
+
+      		</link>
+	</model>
+</sdf>
